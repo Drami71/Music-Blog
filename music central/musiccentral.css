@@ -1,0 +1,259 @@
+* { box-sizing: border-box; }
+
+body {background-color: #22C3D9;
+      font-family: Verdana, Arial, sans-serif;
+      	  }
+	 
+header { background-color: #E27D60;
+        font-size: 150%;
+		padding: 5px 5px 5px 100px;
+		text-align: center;
+		background-image: url(logo.jpg);
+		background-repeat: no-repeat;
+		
+}
+h1 { padding-top: 10px;
+font-size: 2em;
+ }
+h2 { text-align: center;
+    
+	font-size: 150%;
+	text-align: left;}
+h3 { text-align: left;
+     }
+ main  {display: block;  
+        margin-left: 200px;
+        padding: 20px;
+        background-color: #ffffff;
+        color: #000000;
+		padding-bottom: 1.5em;
+		padding-top: 0;
+		padding-left: 0;
+		padding-right: 0;
+}     
+main p { padding-left: 3em;
+          padding-right: 2em;
+}
+main h2 { padding-left: 2em;
+          padding-right: 2em;
+		  padding-top: .5em;
+
+}
+main ul { padding-left: 3em;
+          padding-right: 2em;
+}
+main dl { padding-left: 3em;
+          padding-right: 2em;
+}
+main h3 { padding-left: 3em;
+          padding-right: 2em;
+}
+main h4 { padding-left: 3em;
+          padding-right: 2em;
+}
+main time {padding-left: 3em;
+           padding-right: 2em;}
+
+main ul {list-style-type: none;}
+main li {display: inline-block;
+		width: 225px;
+		padding-bottom: 20px;
+		margin:15px;
+	    text-align:center;
+        font-family:Verdana, serif;}
+nav { float: left;
+	  width: 150px;
+	  position: static;
+	  padding-top: 25px;
+	  text-outline: 1em;
+	  font-size: 1.5em;
+	  text-align: center;
+	  font-weight: bold;
+	  
+	  
+}
+nav a:link { color: #ffffff;
+}
+
+nav a:visited { color: #000000; }
+nav a:hover { color: #ffffff; }
+nav ul ul {
+			padding: 0;
+			text-align: left;
+			margin-left: 0;
+			display:none;
+			text-align: center;
+}
+nav ul { list-style-type: none; 
+        margin: 0;
+}
+
+nav li { padding: 0.5em 0;
+}
+nav a { text-decoration: none; 
+        display: block;
+		
+}
+nav ul ul li { display: block;
+         
+}
+nav li:hover ul { display: block}
+footer {font-style: italic;
+         font-size: .8em;
+         text-align: center;
+         padding-bottom: 10px;
+}
+header, nav, main, footer { display: block; }
+
+.item {background-color: #22C3D9 ;
+       margin-top: 2em;
+	   margin-bottom: 2em;
+	   margin-right: 3em;
+	   margin-left: 3em;
+	   width: 80%;
+	   padding: 1em;
+	   overflow: auto;
+}
+
+#wrapper { background-color: #E27D60; 
+           width: 80%;
+		   margin: auto;
+           min-width: 960px;
+		   max-width: 1200px;
+} 
+#festivalcrowd {background-image: url(festivalcrowd.jpg);
+                background-repeat: no-repeat;
+				background-size: 100% 100%;
+				height: 250px;
+				
+}
+#guitarplayer { background-image: url(guitarplayer.jpg);
+          background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		  height: 250px;
+}
+#drums { background-image: url(drums.jpg);
+          background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		  height: 250px;}
+#rockstage { background-image: url(rockconcert.jpg);
+          background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		  height: 250px;}
+#rocksinger { background-image: url(rocksinger.jpg);
+          background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		  height: 250px;}	
+#blueconcert { background-image: url(blueconcert.jpg);
+          background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		  height: 250px;}	
+#hardcorecrowd { background-image: url(hardcorecrowd.jpg);
+          background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		  height: 250px;}	
+#bandstage { background-image: url(bandstage.jpg);
+          background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		  height: 250px;}		
+#livesinger { background-image: url(livesinger.jpg);
+          background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		  height: 250px;}		  
+article header { background-color: #FFFFFF;
+                 background-image: none;
+				 font-size: 90%;
+				 padding-left: 0;
+				 height: auto;
+				 
+}
+aside { float: right;
+        width: 175px;
+		background-color: #E7957E;
+		padding: 20px;
+		margin-right: 40px;
+		font-size: 80%;
+		font-weight: 600;
+		box-shadow: 5px 5px 5px #333333;
+		position: relative;
+		top: -40px; 
+		}
+form { padding: 1em; }
+label { float: left;
+        display: block;
+        text-align: right;
+        width: 7em;
+        padding-right: 1em;}		
+input, textarea {display: block;
+                 margin-bottom: 2em;
+				 margin-top: 10px;
+				 
+}
+#mySubmit { margin-left: 6em; }
+table { margin: auto;
+        width: 90%;
+		border-spacing: 0;
+}
+td, th { padding: 10px;
+         border: 1px solid #0d0d0d;
+		 font-family: Verdana, Arial, sans-serif;
+		 font-weight: 500;
+}
+
+
+tr:nth-of-type(odd) { background-color: #22C3D9;}
+
+
+#mobile { display: none; }
+#desktop { display: inline; }
+@media only screen and (max-width: 1024px) {
+	body { margin: 0; background-image: none; }
+	#wrapper {width: auto; min-width: 0; margin: 0;
+		      padding: 0; box-shadow: none; }
+	header { border-bottom: 5px solid #000000; background-image: none; }
+	h1 { margin-top: 0; margin-bottom: 1em; padding-top: 1em; padding-right: 1.2em;
+	     padding-bottom: 1em; font-size: 2em;  }
+	nav { float: none; width: auto; padding-top: 0;
+	      margin: 10px; font-size: 1.3em; }
+	nav li { display: inline-block; }
+	nav a { padding: 1em; width: 8em; font-weight: bold; border-style: none; }
+	nav ul { padding: 0; margin: 0; }
+	
+	nav ul ul li { padding: 0; margin: 0; }
+	#festivalcrowd { margin: 0; padding: 0; }
+	#guitarplayer { margin: 0; padding: 0; }
+	#drums { margin: 0; padding: 0; }
+	#rockstage { margin: 0; padding: 0; }
+	#rocksinger { margin: 0; padding: 0; }
+	#blueconcert { margin: 0; padding: 0; }
+	#hardcorecrowd { margin: 0; padding: 0; }
+	#bandstage { margin: 0; padding: 0; }
+	main { margin: 0; font-size: 90%; }
+	main header { border-style: none;}
+	
+}
+@media only screen and (max-width: 768px) {
+	header {height: 150px;font-size: 1.2em; padding-right: 20px}
+	h1 { font-size: 1.8em; text-align: center; padding-left: 0; padding-right: 75px;; }
+	nav { margin: 0; text-align: center; }
+	nav a { display: block; padding: 0.2em; width: auto;border-bottom: 1px solid #0d0d0d;  }
+	nav li { display: block; }
+	nav ul ul{ margin: 0; text-align: center;}
+	nav ul ul li { padding: 0; margin: 0;}
+	main { padding-top: 1px; }
+	h2 { padding-top: 0.5em; padding-right: 0; padding-bottom: 0; 
+	     padding-left: 0.5em; margin-right: 0.5em; }
+	figcaption { font-size: .5em;}
+	
+    #festivalcrowd { background-image: none; height: auto; }	
+	#guitarplayer { background-image: none; height: auto; }	
+	#drums { background-image: none; height: auto; }
+    #rockstage { background-image: none; height: auto;}	
+    #rocksinger{ background-image: none; height: auto; }
+	#blueconcert{ background-image: none; height: auto; }
+	#hardcorecrowd{ background-image: none; height: auto; }
+	#bandstage{ background-image: none; height: auto; }
+	#livesinger{background-image:none; height: auto; }
+	#mobile { display: inline; }
+	#desktop { display: none; }
+}
